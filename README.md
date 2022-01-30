@@ -22,11 +22,6 @@ To clone repository run `git clone https://github.com/Horrorspace/VitoTechnology
 To build the app run `npm run build`.
 
 
-## Create .env file
-
-To build the app run `npm run build`.
-
-
 ## Setting up database
 
 1. Create file, which named `.production.env`, containing the following variables:
