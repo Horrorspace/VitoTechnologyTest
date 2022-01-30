@@ -1,0 +1,368 @@
+{
+    "movies": [
+        {
+            "_id": "1",
+            "title": "Star Wars: Episode I - The Phantom Menace",
+            "director": "George Lucas",
+            "actors": ["Liam Neeson", "Ewan McGregor", "Natalie Portman"],
+            "year": 1999
+        },
+        {
+            "_id": "2",
+            "title": "Star Wars: Episode II – Attack of the Clones",
+            "director": "George Lucas",
+            "actors": ["Ewan McGregor", "Natalie Portman", "Hayden Christensen"],
+            "year": 2002
+        },
+        {
+            "_id": "3",
+            "title": "Star Wars: Episode III – Revenge of the Sith",
+            "director": "George Lucas",
+            "actors": ["Ewan McGregor", "Natalie Portman", "Hayden Christensen"],
+            "year": 2005
+        },
+        {
+            "_id": "4",
+            "title": "Star Wars: Episode IV - A New Hope",
+            "director": "George Lucas",
+            "actors": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"],
+            "year": 1977
+        },
+        {
+            "_id": "5",
+            "title": "Star Wars: Episode V – The Empire Strikes Back",
+            "director": "George Lucas",
+            "actors": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"],
+            "year": 1980
+        },
+        {
+            "_id": "6",
+            "title": "Star Wars: Episode VI – Return of the Jedi",
+            "director": "George Lucas",
+            "actors": ["Mark Hamill", "Harrison Ford", "Carrie Fisher"],
+            "year": 1983
+        },
+        {
+            "_id": "7",
+            "title": "Blade Runner",
+            "director": "Ridley Scott",
+            "actors": ["Harrison Ford", "Rutger Hauer", "Sean Young"],
+            "year": 1982
+        },
+        {
+            "_id": "8",
+            "title": "Blade Runner 2049",
+            "director": "Denis Villeneuve",
+            "actors": ["Harrison Ford", "Ryan Gosling", "Ana de Armas", "Jared Leto"],
+            "year": 2017
+        },
+        {
+            "_id": "9",
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "director": "Peter Jackson",
+            "actors": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen", "Orlando Bloom"],
+            "year": 2001
+        },
+        {
+            "_id": "10",
+            "title": "The Lord of the Rings: The Two Towers",
+            "director": "Peter Jackson",
+            "actors": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen", "Orlando Bloom"],
+            "year": 2002
+        },
+        {
+            "_id": "11",
+            "title": "The Lord of the Rings: The Return of the King",
+            "director": "Peter Jackson",
+            "actors": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen", "Orlando Bloom"],
+            "year": 2003
+        },
+        {
+            "_id": "12",
+            "title": "Alien",
+            "director": "Ridley Scott",
+            "actors": ["Tom Skerritt", "Sigourney Weaver", "Veronica Cartwright"],
+            "year": 1979
+        },
+        {
+            "_id": "13",
+            "title": "Gladiator",
+            "director": "Ridley Scott",
+            "actors": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
+            "year": 2000
+        },
+        {
+            "_id": "14",
+            "title": "Joker",
+            "director": "Todd Phillips",
+            "actors": ["Joaquin Phoenix", "Robert De Niro", "Zazie Beetz"],
+            "year": 2019
+        },
+        {
+            "_id": "15",
+            "title": "The Insider",
+            "director": "Michael Mann",
+            "actors": ["Al Pacino", "Russell Crowe", "Christopher Plummer"],
+            "year": 1999
+        },
+        {
+            "_id": "16",
+            "title": "Batman Begins",
+            "director": "Christopher Nolan",
+            "actors": ["Christian Bale", "Michael Caine", "Liam Neeson", "Gary Oldman"],
+            "year": 2005
+        },
+        {
+            "_id": "17",
+            "title": "The Prestige",
+            "director": "Christopher Nolan",
+            "actors": ["Christian Bale", "Hugh Jackman", "Michael Caine", "Scarlett Johansson"],
+            "year": 2006
+        },
+        {
+            "_id": "18",
+            "title": "The Dark Knight",
+            "director": "Christopher Nolan",
+            "actors": ["Christian Bale", "Michael Caine", "Gary Oldman", "Heath Ledger", "Aaron Eckhart", "Morgan Freeman", "Maggie Gyllenhaal"],
+            "year": 2008
+        },
+        {
+            "_id": "19",
+            "title": "Inception",
+            "director": "Christopher Nolan",
+            "actors": ["Leonardo DiCaprio", "Ken Watanabe", "Joseph Gordon-Levitt", "Marion Cotillard", "Tom Hardy", "Ellen Page"],
+            "year": 2010
+        },
+        {
+            "_id": "20",
+            "title": "The Dark Knight Rises",
+            "director": "Christopher Nolan",
+            "actors": ["Christian Bale", "Michael Caine", "Gary Oldman", "Marion Cotillard", "Tom Hardy", "Anne Hathaway", "Liam Neeson"],
+            "year": 2012
+        },
+        {
+            "_id": "21",
+            "title": "Interstellar",
+            "director": "Christopher Nolan",
+            "actors": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain", "Matt Damon", "Casey Affleck", "Michael Caine"],
+            "year": 2014
+        },
+        {
+            "_id": "22",
+            "title": "American Psycho",
+            "director": "Mary Harron",
+            "actors": ["Christian Bale", "Willem Dafoe", "Jared Leto"],
+            "year": 2000
+        },
+        {
+            "_id": "23",
+            "title": "Dallas Buyers Club",
+            "director": "Jean-Marc Vallée",
+            "actors": ["Matthew McConaughey", "Jennifer Garner", "Jared Leto"],
+            "year": 2013
+        },
+        {
+            "_id": "24",
+            "title": "House of Gucci",
+            "director": "Ridley Scott",
+            "actors": ["Lady Gaga", "Adam Driver", "Jared Leto", "Salma Hayek", "Al Pacino"],
+            "year": 2021
+        },
+        {
+            "_id": "25",
+            "title": "Panic Room",
+            "director": "David Fincher",
+            "actors": ["Jodie Foster", "Kristen Stewart", "Jared Leto", "Dwight Yoakam", "Forest Whitaker"],
+            "year": 2002
+        },
+        {
+            "_id": "26",
+            "title": "Alexander",
+            "director": "Oliver Stone",
+            "actors": ["Colin Farrell", "Angelina Jolie", "Jared Leto", "Anthony Hopkins", "Val Kilmer"],
+            "year": 2004
+        },
+        {
+            "_id": "27",
+            "title": "Requiem for a Dream",
+            "director": "Darren Aronofsky",
+            "actors": ["Jared Leto", "Ellen Burstyn", "Jennifer Connelly", "Marlon Wayans"],
+            "year": 2000
+        },
+        {
+            "_id": "28",
+            "title": "Drive",
+            "director": "Nicolas Winding Refn",
+            "actors": ["Ryan Gosling", "Carey Mulligan", "Bryan Cranston", "Christina Hendricks"],
+            "year": 2011
+        },
+        {
+            "_id": "29",
+            "title": "The Place Beyond the Pines",
+            "director": "Derek Cianfrance",
+            "actors": ["Ryan Gosling", "Bradley Cooper", "Eva Mendes", "Ray Liotta"],
+            "year": 2012
+        },
+        {
+            "_id": "30",
+            "title": "Fight Club",
+            "director": "David Fincher",
+            "actors": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
+            "year": 1999
+        },
+        {
+            "_id": "31",
+            "title": "Seven",
+            "director": "David Fincher",
+            "actors": ["Brad Pitt", "Morgan Freeman", "Gwyneth Paltrow", "John C. McGinley"],
+            "year": 1995
+        },
+        {
+            "_id": "32",
+            "title": "Zodiac",
+            "director": "David Fincher",
+            "actors": ["Jake Gyllenhaal", "Mark Ruffalo", "Robert Downey Jr."],
+            "year": 2007
+        },
+        {
+            "_id": "33",
+            "title": "The Curious Case of Benjamin Button",
+            "director": "David Fincher",
+            "actors": ["Brad Pitt", "Cate Blanchett", "Mahershala Ali", "Taraji P. Henson"],
+            "year": 2008
+        },
+        {
+            "_id": "34",
+            "title": "The Social Network",
+            "director": "David Fincher",
+            "actors": ["Jesse Eisenberg", "Andrew Garfield", "Justin Timberlake"],
+            "year": 2010
+        },
+        {
+            "_id": "35",
+            "title": "The Girl with the Dragon Tattoo",
+            "director": "David Fincher",
+            "actors": ["Daniel Craig", "Rooney Mara", "Christopher Plummer", "Robin Wright"],
+            "year": 2011
+        },
+        {
+            "_id": "36",
+            "title": "Gone Girl",
+            "director": "David Fincher",
+            "actors": ["Ben Affleck", "Rosamund Pike", "Neil Patrick Harris", "Tyler Perry"],
+            "year": 2014
+        },
+        {
+            "_id": "37",
+            "title": "Donnie Darko",
+            "director": "Richard Kelly",
+            "actors": ["Jake Gyllenhaal", "Jena Malone", "Maggie Gyllenhaal"],
+            "year": 2001
+        },
+        {
+            "_id": "38",
+            "title": "Enemy",
+            "director": "Denis Villeneuve",
+            "actors": ["Jake Gyllenhaal", "Melanie Laurent", "Sarah Gadon"],
+            "year": 2014
+        },
+        {
+            "_id": "39",
+            "title": "Prisoners",
+            "director": "Denis Villeneuve",
+            "actors": ["Hugh Jackman", "Jake Gyllenhaal", "Viola Davis"],
+            "year": 2013
+        },
+        {
+            "_id": "40",
+            "title": "Reservoir Dogs",
+            "director": "Quentin Tarantino",
+            "actors": ["Tim Roth", "Steve Buscemi", "Chris Penn"],
+            "year": 1992
+        },
+        {
+            "_id": "41",
+            "title": "Pulp Fiction",
+            "director": "Quentin Tarantino",
+            "actors": ["John Travolta", "Samuel L. Jackson", "Uma Thurman", "Tim Roth"],
+            "year": 1994
+        },
+        {
+            "_id": "42",
+            "title": "Django Unchained",
+            "director": "Quentin Tarantino",
+            "actors": ["Jamie Foxx", "Christoph Waltz", "Leonardo DiCaprio", "Samuel L. Jackson", "Kerry Washington", "Walton Goggins"],
+            "year": 2012
+        },
+        {
+            "_id": "43",
+            "title": "The Hateful Eight",
+            "director": "Quentin Tarantino",
+            "actors": ["Samuel L. Jackson", "Kurt Russell", "Tim Roth", "Jennifer Jason Leigh", "Walton Goggins", "Channing Tatum"],
+            "year": 2015
+        },
+        {
+            "_id": "44",
+            "title": "Troy",
+            "director": "Wolfgang Petersen",
+            "actors": ["Brad Pitt", "Orlando Bloom", "Eric Bana", "Diane Kruger"],
+            "year": 2004
+        },
+        {
+            "_id": "45",
+            "title": "Harry Potter and the Philosopher's Stone",
+            "director": "Chris Columbus",
+            "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Alan Rickman", "Robbie Coltrane", "Richard Harris"],
+            "year": 2001
+        },
+        {
+            "_id": "46",
+            "title": "Harry Potter and the Chamber of Secrets",
+            "director": "Chris Columbus",
+            "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Alan Rickman", "Robbie Coltrane", "Richard Harris"],
+            "year": 2002
+        },
+        {
+            "_id": "47",
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "director": "Alfonso Cuaron",
+            "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Alan Rickman", "Robbie Coltrane", "Michael Gambon", "Gary Oldman"],
+            "year": 2004
+        },
+        {
+            "_id": "48",
+            "title": "Harry Potter and the Goblet of Fire",
+            "director": "Mike Newell",
+            "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Alan Rickman", "Robbie Coltrane", "Michael Gambon", "Gary Oldman", "Ralph Fiennes"],
+            "year": 2005
+        },
+        {
+            "_id": "49",
+            "title": "Harry Potter and the Order of the Phoenix",
+            "director": "David Yates",
+            "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Alan Rickman", "Robbie Coltrane", "Michael Gambon", "Gary Oldman", "Ralph Fiennes", "Helena Bonham Carter"],
+            "year": 2007
+        },
+        {
+            "_id": "50",
+            "title": "Harry Potter and the Half-Blood Prince",
+            "director": "David Yates",
+            "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Alan Rickman", "Robbie Coltrane", "Michael Gambon", "Helena Bonham Carter"],
+            "year": 2009
+        },
+        {
+            "_id": "51",
+            "title": "Harry Potter and the Deathly Hallows – Part 1",
+            "director": "David Yates",
+            "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Alan Rickman", "Robbie Coltrane", "Michael Gambon", "Ralph Fiennes", "Helena Bonham Carter"],
+            "year": 2010
+        },
+        {
+            "_id": "52",
+            "title": "Harry Potter and the Deathly Hallows – Part 2",
+            "director": "David Yates",
+            "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Alan Rickman", "Robbie Coltrane", "Michael Gambon", "Ralph Fiennes", "Helena Bonham Carter", "Gary Oldman"],
+            "year": 2011
+        }
+    ]
+}
