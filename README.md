@@ -1,5 +1,6 @@
 # VitoTechnologyTest
-
+_Read this in other languages:_
+[_Русский_](README.ru-RU.md)
 
 ## Install database
 
