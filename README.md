@@ -48,11 +48,11 @@ To build the app in production mode run `npm run build`.
 
 ## Launching in development mode
 
-To launch the app run `npm run serve`. After that app will be lauched in watch mode on port, which specified in .production.env file.
+To launch the app run `npm run serve`. After that app will be lauched in watch mode on port, which specified in `.development.env` file.
 
 Open `http://localhost:${YOUR_PORT_NUMBER}/graphql` on your browser to see playground.
 
 
 ## Launching in production mode
 
-To launch the app run `npm start`. After that app will be lauched on port, which specified in .production.env file.
+To launch the app run `npm start`. After that app will be lauched on port, which specified in `.production.env` file.
