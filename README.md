@@ -31,7 +31,7 @@ To clone repository run `git clone https://github.com/Horrorspace/VitoTechnology
 
 ## Build the app in development mode
 
-1. Create file, which named `.production.env`, containing the following variables:
+1. Create file, which named `.development.env`, containing the following variables:
 * PORT - port number on which the app will run;
 * DB_PROTOCOL - protocol of your database (http or https);
 * DB_HOST - hostname of your database (e.g. localhost);
