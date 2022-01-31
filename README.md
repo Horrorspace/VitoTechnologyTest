@@ -31,7 +31,14 @@ To clone repository run `git clone https://github.com/Horrorspace/VitoTechnology
 
 ## Build the app in development mode
 
-To build the app in development mode run `npm run dev`. After that app will be built in watch mode.
+1. Create file, which named `.production.env`, containing the following variables:
+* PORT - port number on which the app will run;
+* DB_PROTOCOL - protocol of your database (http or https);
+* DB_HOST - hostname of your database (e.g. localhost);
+* DB_PORT - port number on which your database run;
+* DB_USERNAME - login to connect to your database;
+* DB_PASSWORD - password to connect to your database;
+2. Run `npm run dev` to build the app in development mode. After that app will be built in watch mode.
 
 
 ## Build the app in production mode
