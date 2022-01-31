@@ -17,11 +17,6 @@ To clone repository run `git clone https://github.com/Horrorspace/VitoTechnology
 2. Run `npm install` to install dependencies.
 
 
-## Build the app
-
-To build the app run `npm run build`.
-
-
 ## Setting up database
 
 1. Create file, which named `.production.env`, containing the following variables:
@@ -34,8 +29,23 @@ To build the app run `npm run build`.
 2. Run `npm run createDB`.
 
 
-## Launching
+## Build the app in development mode
 
-To launch the app run `npm start`. After that app will be lauched on port, which specified in .production.env file.
+To build the app in development mode run `npm run dev`. After that app will be built in watch mode.
+
+
+## Build the app in production mode
+
+To build the app in production mode run `npm run build`.
+
+
+## Launching in development mode
+
+To launch the app run `npm run serve`. After that app will be lauched in watch mode on port, which specified in .production.env file.
 
 Open `http://localhost:${YOUR_PORT_NUMBER}/graphql` on your browser to see playground.
+
+
+## Launching in production mode
+
+To launch the app run `npm start`. After that app will be lauched on port, which specified in .production.env file.

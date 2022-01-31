@@ -1,7 +1,7 @@
 import {Inject} from '@nestjs/common';
 import {Resolver, Query, Args, Int} from '@nestjs/graphql';
-import {Director, directorArgs} from './directors.type';
-import {Director as schema} from './directors.schema';
+import {directorArgs, DirectorResponse} from './directors.type';
+import {DirectorResponse as schema} from './directorsResponse.schema';
 import {DirectorsService} from './directors.service';
 
 
@@ -14,23 +14,25 @@ export class DirectorsResolver {
 
     
     @Query(() => schema, {nullable: true})
-    public async director(@Args('id', {type: () => String}) id: string): Promise<Director | null> {
-        return await this.directorsService.getDirectorById(id);
+    public async director(
+        @Args('id', {type: () => String, description: 'Unique identificator of the director'}) id: string
+    ): Promise<DirectorResponse | null> {
+        return await this.directorsService.getDirectorByIdResponse(id);
     }
 
     @Query(() => [schema])
     public async directors(
-        @Args('number', {type: () => Int, nullable: true}) num: number,
-        @Args('offset', {type: () => Int, nullable: true}) offset: number,
-        @Args('name', {type: () => String, nullable: true}) name: string,
-        @Args('movie', {type: () => String, nullable: true}) movie: string,
-    ): Promise<Director[]> {
+        @Args('number', {type: () => Int, nullable: true, description: 'number of getting entries'}) num: number,
+        @Args('offset', {type: () => Int, nullable: true, description: 'number of skiping entries'}) offset: number,
+        @Args('name', {type: () => String, nullable: true, description: 'name of director, which entry have to be got'}) name: string,
+        @Args('movie', {type: () => String, nullable: true, description: 'title of movie, which director entry have to be got'}) movie: string,
+    ): Promise<DirectorResponse[]> {
         const options: directorArgs = {
             num,
             offset,
             name,
             movie
         }
-        return await this.directorsService.getDirectors(options);
+        return await this.directorsService.getDirectorsResponse(options);
     }
 }

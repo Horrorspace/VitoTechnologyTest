@@ -1,8 +1,10 @@
 import {Field, ObjectType} from '@nestjs/graphql';
+import {Movie} from '../movies/movies.schema';
+import {Movie as MovieType} from '../movies/movies.type'; 
 
 
 @ObjectType()
-export class Director {
+export class ActorResponse {
     @Field(type => String, {
         description: 'Unique identificator'
     })
@@ -13,8 +15,8 @@ export class Director {
     })
     name!: string;
 
-    @Field(type => [String], {
-        description: "Array of movies titles, which directed by the director"
+    @Field(type => [Movie], {
+        description: "Array of movies data objects, the actor has been played in"
     })
-    movies!: string[];
+    movies!: MovieType[];
 }

@@ -363,6 +363,342 @@
             "director": "David Yates",
             "actors": ["Daniel Radcliffe", "Rupert Grint", "Emma Watson", "Alan Rickman", "Robbie Coltrane", "Michael Gambon", "Ralph Fiennes", "Helena Bonham Carter", "Gary Oldman"],
             "year": 2011
+        },
+        {
+            "_id": "53",
+            "title": "The Hobbit: An Unexpected Journey",
+            "director": "Peter Jackson",
+            "actors": ["Ian McKellen", "Martin Freeman", "Richard Armitage", "Elijah Wood"],
+            "year": 2012
+        },
+        {
+            "_id": "54",
+            "title": "The Hobbit: The Desolation of Smaug",
+            "director": "Peter Jackson",
+            "actors": ["Ian McKellen", "Martin Freeman", "Richard Armitage", "Benedict Cumberbatch"],
+            "year": 2013
+        },
+        {
+            "_id": "55",
+            "title": "The Hobbit: The Battle of the Five Armies",
+            "director": "Peter Jackson",
+            "actors": ["Ian McKellen", "Martin Freeman", "Richard Armitage", "Evangeline Lilly"],
+            "year": 2014
+        },
+        {
+            "_id": "56",
+            "title": "American Hustle",
+            "director": "David O. Russell",
+            "actors": ["Christian Bale", "Bradley Cooper", "Amy Adams", "Jeremy Renner", "Jennifer Lawrence"],
+            "year": 2013
+        },
+        {
+            "_id": "57",
+            "title": "Silver Linings Playbook",
+            "director": "David O. Russell",
+            "actors": ["Christian Bale", "Bradley Cooper", "Robert De Niro"],
+            "year": 2012
+        },
+        {
+            "_id": "58",
+            "title": "Limitless",
+            "director": "Neil Burger",
+            "actors": ["Christian Bale", "Abbie Cornish", "Robert De Niro"],
+            "year": 2011
+        },
+        {
+            "_id": "59",
+            "title": "10 Cloverfield Lane",
+            "director": "Dan Trachtenberg",
+            "actors": ["Mary Elizabeth Winstead", "John Goodman", "John Gallagher Jr."],
+            "year": 2016
+        },
+        {
+            "_id": "60",
+            "title": "The Godfather",
+            "director": "Francis Ford Coppola",
+            "actors": ["Marlon Brando", "Al Pacino", "James Caan"],
+            "year": 1972
+        },
+        {
+            "_id": "61",
+            "title": "The Godfather Part II",
+            "director": "Francis Ford Coppola",
+            "actors": ["Al Pacino", "Robert Duvall", "Diane Keaton", "Robert De Niro"],
+            "year": 1974
+        },
+        {
+            "_id": "62",
+            "title": "The Godfather Part III",
+            "director": "Francis Ford Coppola",
+            "actors": ["Al Pacino", "Diane Keaton", "Talia Shire", "Andy Garcia"],
+            "year": 1990
+        },
+        {
+            "_id": "63",
+            "title": "Once Upon a Time in America",
+            "director": "Sergio Leone",
+            "actors": ["Robert De Niro", "James Woods", "Elizabeth McGovern", "Joe Pesci"],
+            "year": 1984
+        },
+        {
+            "_id": "64",
+            "title": "The Irishman",
+            "director": "Martin Scorsese",
+            "actors": ["Robert De Niro", "Jane Rosenthal", "Emma Tillinger Koskoff", "Irwin Winkler"],
+            "year": 2019
+        },
+        {
+            "_id": "65",
+            "title": "The Aviator",
+            "director": "Martin Scorsese",
+            "actors": ["Leonardo DiCaprio", "Cate Blanchett", "Kate Beckinsale"],
+            "year": 2004
+        },
+        {
+            "_id": "66",
+            "title": "The Departed",
+            "director": "Martin Scorsese",
+            "actors": ["Leonardo DiCaprio", "Matt Damon", "Jack Nicholson", "Mark Wahlberg"],
+            "year": 2006
+        },
+        {
+            "_id": "67",
+            "title": "Shutter Island",
+            "director": "Martin Scorsese",
+            "actors": ["Leonardo DiCaprio", "Mark Ruffalo", "Ben Kingsley", "Michelle Williams"],
+            "year": 2010
+        },
+        {
+            "_id": "68",
+            "title": "The Wolf of Wall Street",
+            "director": "Martin Scorsese",
+            "actors": ["Leonardo DiCaprio", "Jonah Hill", "Margot Robbie", "Matthew McConaughey"],
+            "year": 2013
+        },
+        {
+            "_id": "69",
+            "title": "Silence",
+            "director": "Martin Scorsese",
+            "actors": ["Andrew Garfield", "Adam Driver", "Tadanobu Asano", "Liam Neeson"],
+            "year": 2016
+        },
+        {
+            "_id": "70",
+            "title": "Ocean's Eleven",
+            "director": "Steven Soderbergh",
+            "actors": ["George Clooney", "Matt Damon", "Andy Garcia", "Brad Pitt", "Julia Roberts"],
+            "year": 2001
+        },
+        {
+            "_id": "71",
+            "title": "Ocean's Twelve",
+            "director": "Steven Soderbergh",
+            "actors": ["George Clooney", "Matt Damon", "Andy Garcia", "Brad Pitt", "Julia Roberts", "Casey Affleck"],
+            "year": 2004
+        },
+        {
+            "_id": "72",
+            "title": "Ocean's Thirteen",
+            "director": "Steven Soderbergh",
+            "actors": ["George Clooney", "Matt Damon", "Andy Garcia", "Brad Pitt", "Al Pacino", "Casey Affleck"],
+            "year": 2007
+        },
+        {
+            "_id": "73",
+            "title": "The Bourne Identity",
+            "director": "Doug Liman",
+            "actors": ["Matt Damon", "Franka Potente", "Chris Cooper", "Clive Owen", "Brian Cox"],
+            "year": 2002
+        },
+        {
+            "_id": "74",
+            "title": "The Bourne Supremacy",
+            "director": "Paul Greengrass",
+            "actors": ["Matt Damon", "Franka Potente", "Brian Cox", "Julia Stiles"],
+            "year": 2004
+        },
+        {
+            "_id": "75",
+            "title": "The Bourne Ultimatum",
+            "director": "Paul Greengrass",
+            "actors": ["Matt Damon", "Julia Stiles", "David Strathairn"],
+            "year": 2007
+        },
+        {
+            "_id": "76",
+            "title": "The Bourne Legacy",
+            "director": "Tony Gilroy",
+            "actors": ["Jeremy Renner", "Rachel Weisz", "Edward Norton"],
+            "year": 2012
+        },
+        {
+            "_id": "77",
+            "title": "Jason Bourne",
+            "director": "Paul Greengrass",
+            "actors": ["Matt Damon", "Tommy Lee Jones", "Alicia Vikander"],
+            "year": 2016
+        },
+        {
+            "_id": "78",
+            "title": "Elysium",
+            "director": "Neill Blomkamp",
+            "actors": ["Matt Damon", "Jodie Foster", "Sharlto Copley"],
+            "year": 2013
+        },
+        {
+            "_id": "79",
+            "title": "The Martian",
+            "director": "Ridley Scott",
+            "actors": ["Matt Damon", "Jessica Chastain", "Kristen Wiig"],
+            "year": 2015
+        },
+        {
+            "_id": "80",
+            "title": "Thor",
+            "director": "Kenneth Branagh",
+            "actors": ["Chris Hemsworth", "Natalie Portman", "Tom Hiddleston"],
+            "year": 2011
+        },
+        {
+            "_id": "81",
+            "title": "Thor: The Dark World",
+            "director": "Alan Taylor",
+            "actors": ["Chris Hemsworth", "Natalie Portman", "Tom Hiddleston"],
+            "year": 2013
+        },
+        {
+            "_id": "82",
+            "title": "Thor: Love and Thunder",
+            "director": "Taika Waititi",
+            "actors": ["Chris Hemsworth", "Natalie Portman", "Christian Bale"],
+            "year": 2022
+        },
+        {
+            "_id": "83",
+            "title": "Iron Man",
+            "director": "Jon Favreau",
+            "actors": ["Robert Downey Jr.", "Gwyneth Paltrow", "Jeff Bridges"],
+            "year": 2008
+        },
+        {
+            "_id": "84",
+            "title": "Iron Man 2",
+            "director": "Jon Favreau",
+            "actors": ["Robert Downey Jr.", "Gwyneth Paltrow", "Don Cheadle", "Scarlett Johansson", "Samuel L. Jackson"],
+            "year": 2010
+        },
+        {
+            "_id": "85",
+            "title": "Iron Man 3",
+            "director": "Shane Black",
+            "actors": ["Robert Downey Jr.", "Gwyneth Paltrow", "Don Cheadle", "Guy Pearce"],
+            "year": 2013
+        },
+        {
+            "_id": "86",
+            "title": "The Avengers",
+            "director": "Joss Whedon",
+            "actors": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth", "Scarlett Johansson", "Jeremy Renner", "Tom Hiddleston"],
+            "year": 2012
+        },
+        {
+            "_id": "87",
+            "title": "Avengers: Infinity War",
+            "director": "Russo brothers",
+            "actors": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth", "Scarlett Johansson", "Benedict Cumberbatch"],
+            "year": 2018
+        },
+        {
+            "_id": "88",
+            "title": "Avengers: Endgame",
+            "director": "Russo brothers",
+            "actors": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth", "Scarlett Johansson", "Jeremy Renner"],
+            "year": 2019
+        },
+        {
+            "_id": "89",
+            "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+            "director": "Gore Verbinski",
+            "actors": ["Johnny Depp", "Geoffrey Rush", "Orlando Bloom", "Keira Knightley"],
+            "year": 2003
+        },
+        {
+            "_id": "90",
+            "title": "Pirates of the Caribbean: Dead Man's Chest",
+            "director": "Gore Verbinski",
+            "actors": ["Johnny Depp", "Orlando Bloom", "Keira Knightley", "Stellan Skarsgard"],
+            "year": 2006
+        },
+        {
+            "_id": "91",
+            "title": "Pirates of the Caribbean: At World's End",
+            "director": "Gore Verbinski",
+            "actors": ["Johnny Depp", "Orlando Bloom", "Keira Knightley", "Stellan Skarsgard"],
+            "year": 2007
+        },
+        {
+            "_id": "92",
+            "title": "Pirates of the Caribbean: On Stranger Tides",
+            "director": "Rob Marshall",
+            "actors": ["Johnny Depp", "Penelope Cruz", "Ian McShane", "Kevin R. McNally"],
+            "year": 2011
+        },
+        {
+            "_id": "93",
+            "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+            "director": "Joachim Rønning",
+            "actors": ["Johnny Depp", "Javier Bardem", "Geoffrey Rush", "Brenton Thwaites"],
+            "year": 2017
+        },
+        {
+            "_id": "94",
+            "title": "Star Wars: The Force Awakens",
+            "director": "J. J. Abrams",
+            "actors": ["Harrison Ford", "Mark Hamill", "Carrie Fisher", "Adam Driver", "Daisy Ridley", "John Boyega", "Oscar Isaac"],
+            "year": 2015
+        },
+        {
+            "_id": "95",
+            "title": "Star Wars: The Last Jedi",
+            "director": "Rian Johnson",
+            "actors": ["Mark Hamill", "Carrie Fisher", "Adam Driver", "Daisy Ridley", "John Boyega", "Oscar Isaac"],
+            "year": 2017
+        },
+        {
+            "_id": "96",
+            "title": "Star Wars: The Rise of Skywalker",
+            "director": "J. J. Abrams",
+            "actors": ["Mark Hamill", "Carrie Fisher", "Adam Driver", "Daisy Ridley", "John Boyega", "Oscar Isaac"],
+            "year": 2019
+        },
+        {
+            "_id": "97",
+            "title": "Rogue One",
+            "director": "Gareth Edwards",
+            "actors": ["Felicity Jones", "Diego Luna", "Ben Mendelsohn", "Donnie Yen", "Mads Mikkelsen"],
+            "year": 2016
+        },
+        {
+            "_id": "98",
+            "title": "Solo: A Star Wars Story",
+            "director": "Ron Howard",
+            "actors": ["Alden Ehrenreich", "Woody Harrelson", "Emilia Clarke", "Donald Glover"],
+            "year": 2018
+        },
+        {
+            "_id": "99",
+            "title": "The Lincoln Lawyer",
+            "director": "Brad Furman",
+            "actors": ["Matthew McConaughey", "Marisa Tomei", "Ryan Phillippe", "Josh Lucas"],
+            "year": 2011
+        },
+        {
+            "_id": "100",
+            "title": "Mud",
+            "director": "Jeff Nichols",
+            "actors": ["Matthew McConaughey", "Tye Sheridan", "Sam Shepard", "Michael Shannon"],
+            "year": 2012
         }
     ]
 }

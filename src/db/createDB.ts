@@ -3,6 +3,21 @@ import moviesData from '../data/movies.json';
 import {Movie} from '../movies/movies.type';
 import {Director} from '../directors/directors.type';
 import {Actor} from '../actors/actors.type';
+import {config} from 'dotenv';
+import {resolve} from 'path';
+
+
+config({
+    path: resolve(process.cwd(), `.${process.env.NODE_ENV}.env`)
+});
+
+const login: string = process.env.DB_USERNAME || '';
+const password: string = process.env.DB_PASSWORD || '';
+const protocol: string = process.env.DB_PROTOCOL || 'http';
+const host: string = process.env.DB_HOST || 'localhost';
+const port: number = Number(process.env.DB_PORT) || 5984; 
+
+const nano = Nano(`${protocol}://${login}:${password}@${host}:${port}`);
 
 
 interface moviesData {
@@ -13,7 +28,6 @@ moviesData as moviesData;
 
 
 const moviesList = moviesData.movies;
-const nano = Nano('http://admin:968574@localhost:5984');
 
 async function start(): Promise<void> {
     await nano.db.create('movies');
@@ -52,10 +66,11 @@ async function start(): Promise<void> {
         });
     }
 
-    for(let i in directorsList) {
-        const moviesList = await moviesDB.list();
-        const limit = moviesList.rows.length;
+    const moviesData = await moviesDB.list();
+    const limit = moviesData.rows.length;
 
+    let k = 1;
+    for(let i in directorsList) {
         const res = await moviesDB.find({
             selector: {
                 year: {'$gte': 0},
@@ -77,18 +92,17 @@ async function start(): Promise<void> {
         const movies: string[] = moviesData.map(m => m.title);
 
         const doc: Director = {
-            _id: `${i}`,
+            _id: `${k}`,
             name: directorsList[i],
             movies
         }
         
         await directorsDB.insert(doc);
+        k++;
     }
 
+    k = 1;
     for(let i in actorsList) {
-        const moviesList = await moviesDB.list();
-        const limit = moviesList.rows.length;
-
         const res = await moviesDB.find({
             selector: {
                 year: {'$gte': 0},
@@ -112,12 +126,13 @@ async function start(): Promise<void> {
         const movies: string[] = moviesData.map(m => m.title);
 
         const doc: Actor = {
-            _id: `${i}`,
+            _id: `${k}`,
             name: actorsList[i],
             movies
         }
         
         await actorsDB.insert(doc);
+        k++;
     }
 }
 

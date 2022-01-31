@@ -9,8 +9,8 @@
     "build": "tsc --resolveJsonModule",
     "serve": "cross-env NODE_ENV=development nodemon ./build/main.js",
     "start": "cross-env NODE_ENV=production node ./build/main.js",
-    "deleteDB": "node ./build/db/deleteDB.js",
-    "createDB": "node ./build/db/createDB.js"
+    "deleteDB": "cross-env NODE_ENV=production node ./build/db/deleteDB.js",
+    "createDB": "cross-env NODE_ENV=production node ./build/db/createDB.js"
   },
   "repository": {
     "type": "git",
@@ -37,6 +37,7 @@
     "@nestjs/platform-express": "^8.2.6",
     "apollo-server-express": "^3.6.2",
     "class-transformer": "^0.4.0",
+    "dotenv": "^14.3.2",
     "express": "^4.17.2",
     "express-graphql": "^0.12.0",
     "graphql": "^15.8.0",
